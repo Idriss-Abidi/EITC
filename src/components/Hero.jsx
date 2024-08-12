@@ -8,11 +8,6 @@ const textVariants = {
   animate: { y: 0, transition: { duration: 1.5} }
 };
 
-const welcomeVariants = {
-  initial: { y: -20 },
-  animate: { y: 0, transition: { duration: 1.5, delay: 1.5 } }
-};
-
 const waveVariants = {
   animate: {
     rotate: [0, 10, -10, 0],
@@ -58,7 +53,7 @@ const Hero = () => {
         variants={textVariants}
         initial="initial"
         animate="animate"
-        className="text-6xl mb-4"
+        className="text-4xl mb-4"
       >
         Hello there!
       </motion.h1>
@@ -68,14 +63,14 @@ const Hero = () => {
           variants={textVariants}
           initial="initial"
           animate="animate"
-          className="text-4xl mb-4"
+          className="text-3xl mb-4"
         >
           Welcome to our club
         </motion.h2>
         <motion.div
           variants={waveVariants}
           animate="animate"
-          className="text-4xl ml-4"
+          className="text-3xl ml-4"
         >
           <FaHandSparkles />
         </motion.div>
@@ -86,7 +81,7 @@ const Hero = () => {
           variants={textVariants}
           initial="initial"
           animate="animate"
-          className="text-4xl mb-4"
+          className="text-3xl mb-4"
         >
           Where IT minds get creative
         </motion.h3>
