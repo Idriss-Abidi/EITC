@@ -2,7 +2,22 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-
+// -----------
+import {
+  FaXTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaDiscord,
+  FaInstagram,
+} from "react-icons/fa6";
+import { RiReactjsLine } from "react-icons/ri";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiMongodb } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
+// ---------------
 export const HERO_CONTENT = `EITC is not just a simple IT club, but a community of engineering students and graduates, united by their passion for IT. Our club follows the philosophy of sharing: We are both the source and the consumers of information. Each person contributes to the knowledge of others, and together we form an entity dedicated to IT and new technologies.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
@@ -74,3 +89,38 @@ export const CONTACT = {
   phoneNo: "+12 4555 666 00 ",
   email: "me@example.com",
 };
+
+export const SOCIAL_MEDIA_LINKS = [
+  {
+    href: "https://x.com/",
+    // icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://x.com/",
+    // icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://x.com/",
+    // icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://x.com/",
+    // icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://github.com/",
+    // icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://www.linkedin.com/",
+    // icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+  },
+];
+export const NAVIGATION_LINKS = [
+  { label: "ABOUT US", href: "#ABOUT" },
+  { label: "CELLS", href: "#CELLS" },
+  { label: "FORMATIONS", href: "#FORMATIONS" },
+  { label: "EVENTS", href: "#EVENTS" },
+  { label: "CONTACT", href: "#CONTACT" },
+  { label: "SPONSORS", href: "#SPONSORS" },
+];

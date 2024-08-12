@@ -73,3 +73,14 @@ button:focus-visible {
 :root{
   font-family: "Inter", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
+body{
+height: 100%;
+margin: 0;
+margin-top: 100px;
+}
+#FirstDiv{
+/* top: 243px; */
+}
