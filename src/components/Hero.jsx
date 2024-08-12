@@ -1,6 +1,33 @@
 import { HERO_CONTENT } from "../constants"
 import eitcLogo from "../assets/eitcLogo.png"
-import { motion } from "framer-motion"
+import { delay, motion } from 'framer-motion';
+import { FaHandSparkles, FaStar } from 'react-icons/fa';
+
+const textVariants = {
+  initial: { y: -20 },
+  animate: { y: 0, transition: { duration: 1.5} }
+};
+
+const welcomeVariants = {
+  initial: { y: -20 },
+  animate: { y: 0, transition: { duration: 1.5, delay: 1.5 } }
+};
+
+const waveVariants = {
+  animate: {
+    rotate: [0, 10, -10, 0],
+    transition: { duration: 1, repeat: Infinity, repeatType: 'loop' }
+  }
+};
+
+const starVariants = {
+  animate: {
+    y: [0, -10, 0],
+    transition: { duration: 1, repeat: Infinity, repeatType: 'loop' }
+  }
+};
+
+
 const container1=(delay)=>({
     hidden:{x:-100, opacity:0},
     visible:{
@@ -25,9 +52,53 @@ const Hero = () => {
                 <div className="flex flex-col items-center lg:items-start">
                     <motion.h1 variants={container1(0)} initial="hidden" animate="visible" className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">EITC</motion.h1>
                     <motion.span variants={container1(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">ENSIAS IT CLUB</motion.span>
-                    <motion.p variants={container1(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                        {HERO_CONTENT}
-                    </motion.p>
+                    <motion.div variants={container1(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                        {/* <WelcomeSection/> */}
+                        <motion.h1
+        variants={textVariants}
+        initial="initial"
+        animate="animate"
+        className="text-6xl mb-4"
+      >
+        Hello there!
+      </motion.h1>
+      
+      <div className="flex items-center">
+        <motion.h2
+          variants={textVariants}
+          initial="initial"
+          animate="animate"
+          className="text-4xl mb-4"
+        >
+          Welcome to our club
+        </motion.h2>
+        <motion.div
+          variants={waveVariants}
+          animate="animate"
+          className="text-4xl ml-4"
+        >
+          <FaHandSparkles />
+        </motion.div>
+      </div>
+
+      <div className="flex items-center">
+        <motion.h3
+          variants={textVariants}
+          initial="initial"
+          animate="animate"
+          className="text-4xl mb-4"
+        >
+          Where IT minds get creative
+        </motion.h3>
+        <motion.div
+          variants={starVariants}
+          animate="animate"
+          className="text-3xl ml-4"
+        >
+          <FaStar />
+        </motion.div>
+      </div>
+                    </motion.div>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8"> 
