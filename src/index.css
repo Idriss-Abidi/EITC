@@ -84,3 +84,7 @@ margin-top: 100px;
 #FirstDiv{
 /* top: 243px; */
 }
+.cellsize{
+  width: 50px;
+  height: 50px;
+}

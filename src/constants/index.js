@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import MiskoHevery from "../assets/events/MiskoHevery.jpg";
+import itholic3 from "../assets/events/itholic3.jpg";
+import itholic2 from "../assets/events/itholic2.png";
+import itholic1 from "../assets/events/itholic1.png";
+import future from "../assets/events/future.jpg";
 // -----------
 import {
   FaXTwitter,
@@ -53,36 +54,36 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
+// export const PROJECTS = [
+//   {
+//     title: "E-Commerce Website",
+//     image: project1,
+//     description:
+//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+//   },
+//   {
+//     title: "Task Management App",
+//     image: project2,
+//     description:
+//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+//   },
+//   {
+//     title: "Portfolio Website",
+//     image: project3,
+//     description:
+//       "A personal portfolio website showcasing projects, skills, and contact information.",
+//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+//   },
+//   {
+//     title: "Blogging Platform",
+//     image: project4,
+//     description:
+//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+//   },
+// ];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
@@ -123,4 +124,44 @@ export const NAVIGATION_LINKS = [
   { label: "EVENTS", href: "#EVENTS" },
   { label: "CONTACT", href: "#CONTACT" },
   { label: "SPONSORS", href: "#SPONSORS" },
+];
+
+
+
+export const EVENTS = [
+  {
+    title: "ITHOLIC V.3.0",
+    image: itholic3,
+    description:
+      "ITHOLIC this year spans three days and focuses on “The Future of ITOPS,” showcasing innovations in microservices architectures. This theme reflects the shift from monolithic to agile, adaptable microservices, which enhance market responsiveness and system security. The event will cover the benefits and challenges of microservices, current ITOPS trends, and best practices, featuring a DEVJAM and a competitive programming competition.",
+    tags: ["Conference","ITOps", "DevOps", "DEVJAM", "CP"],
+  },
+  {
+    title: "Special Workshop - Misko Hevery ",
+    image: MiskoHevery,
+    description:
+      "Hello Angular fans! EITC has brought you a workshop led by the mastermind behind Angular/AngularJS and Qwik, Misko Hevery. Save the date for this special event!",
+    tags: ["Workshop","Misko Hevery", "Angular", "Training"],
+  },
+  {
+    title: "ITHOLIC V.2.0",
+    image: itholic2,
+    description:
+      "ITHOLIC is the annual flagship event of ENSIAS IT CLUB, held on February 10-11 at ENSIAS. The event includes a conference on “AR & VR” with industry experts, a workshop on “Next-gen Web3 Identity,” and a competitive programming competition open to Moroccan university students for great prizes. Additionally, technology enthusiasts can compete in the DEVJAM, showcasing innovative VR and AR ideas.",
+    tags: ["Conference", "AR&VR", "Web3", "DEVJAM", "CP"],
+  },
+  {
+    title: "ITHOLIC V.1.0",
+    image: itholic1,
+    description:
+      "ITHOLIC is a meeting point for technology and IT enthusiasts. The event featured a conference on “Cloud & Linux” with top cloud engineers, a practical workshop on “Kubernetes,” and concluded with a competitive programming competition open to Moroccan university students.",
+    tags: ["Conference","Cloud", "Linux", "Kubernetes", "CP"],
+  },
+  {
+    title: "FUTURE OF A GRADUATE SOFTWARE ENGINEER",
+    image: future,
+    description:
+    "As a computer engineering student, you may be uncertain about your future career. Your expectations might not align with reality. We're here to clarify your vision! Join us for a conference moderated by El ASSALI Mehdi, where industry professionals will discuss what it means to be a software engineer.",
+    tags: ["Conference","Software Engineer",],
+  },
 ];

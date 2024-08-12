@@ -50,7 +50,7 @@ const navbar = () => {
         <div>
             <ul className="flex items-center gap-4">
                 {NAVIGATION_LINKS.map((item, index)=>(
-                    <li key={index}> <a className="text-sm hover:text-yellow-400" href={item.href} onClick={(e)=>handleLinkClick(e, item.href)} >{item.label}</a></li>
+                    <li key={index}> <a className="text-sm hover:text-cyan-400" href={item.href} onClick={(e)=>handleLinkClick(e, item.href)} >{item.label}</a></li>
                 ))}
             </ul>
         </div>
