@@ -11,14 +11,14 @@ const textVariants = {
 const waveVariants = {
   animate: {
     rotate: [0, 10, -10, 0],
-    transition: { duration: 1, repeat: Infinity, repeatType: 'loop' }
+    transition: { duration: 2, repeat: Infinity, repeatType: 'loop' }
   }
 };
 
 const starVariants = {
   animate: {
     y: [0, -10, 0],
-    transition: { duration: 1, repeat: Infinity, repeatType: 'loop' }
+    transition: { duration: 3, repeat: Infinity, repeatType: 'loop' }
   }
 };
 
@@ -53,7 +53,7 @@ const Hero = () => {
         variants={textVariants}
         initial="initial"
         animate="animate"
-        className="text-4xl mb-4"
+        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-4"
       >
         Hello there!
       </motion.h1>
@@ -63,14 +63,14 @@ const Hero = () => {
           variants={textVariants}
           initial="initial"
           animate="animate"
-          className="text-3xl mb-4"
+          className="mb-4 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
         >
           Welcome to our club
         </motion.h2>
         <motion.div
           variants={waveVariants}
           animate="animate"
-          className="text-3xl ml-4"
+          className="text-4xl ml-4 text-purple-600"
         >
           <FaHandSparkles />
         </motion.div>
@@ -81,14 +81,14 @@ const Hero = () => {
           variants={textVariants}
           initial="initial"
           animate="animate"
-          className="text-3xl mb-4"
+          className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-4"
         >
           Where IT minds get creative
         </motion.h3>
         <motion.div
           variants={starVariants}
           animate="animate"
-          className="text-3xl ml-4"
+          className="text-3xl ml-4 text-purple-600"
         >
           <FaStar />
         </motion.div>
@@ -97,7 +97,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8"> 
-                <div className="flex justify-center">
+                <div className="flex justify-center ">
                     <motion.img variants={container2(1.2)} initial="hidden" animate="visible" src={eitcLogo} alt=""/>
                 </div>
             </div>

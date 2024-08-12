@@ -28,3 +28,4 @@ const App = () => {
 }
 
 export default App
+// render(<App />, document.getElementById("root"));

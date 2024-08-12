@@ -26,29 +26,29 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    role: "Full Stack Developer",
+    company: "title",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
+    company: "title",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
     year: "2021 - 2022",
     role: "Full Stack Developer",
-    company: "Facebook",
+    company: "title",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
     year: "2020 - 2021",
     role: "Software Engineer",
-    company: "Paypal",
+    company: "title",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
@@ -135,6 +135,7 @@ export const EVENTS = [
     description:
       "ITHOLIC this year spans three days and focuses on “The Future of ITOPS,” showcasing innovations in microservices architectures. This theme reflects the shift from monolithic to agile, adaptable microservices, which enhance market responsiveness and system security. The event will cover the benefits and challenges of microservices, current ITOPS trends, and best practices, featuring a DEVJAM and a competitive programming competition.",
     tags: ["Conference","ITOps", "DevOps", "DEVJAM", "CP"],
+    link : "https://www.linkedin.com/posts/ensias-it-club_itholicabrv3-6thabrgeneration-whereabritabrmindsabrgetabrcreative-activity-7206724717267800065-wPYS?utm_source=share&utm_medium=member_desktop",
   },
   {
     title: "Special Workshop - Misko Hevery ",
@@ -142,6 +143,7 @@ export const EVENTS = [
     description:
       "Hello Angular fans! EITC has brought you a workshop led by the mastermind behind Angular/AngularJS and Qwik, Misko Hevery. Save the date for this special event!",
     tags: ["Workshop","Misko Hevery", "Angular", "Training"],
+    link : "https://www.youtube.com/watch?v=_OeaB9FLzGA",
   },
   {
     title: "ITHOLIC V.2.0",
@@ -149,6 +151,7 @@ export const EVENTS = [
     description:
       "ITHOLIC is the annual flagship event of ENSIAS IT CLUB, held on February 10-11 at ENSIAS. The event includes a conference on “AR & VR” with industry experts, a workshop on “Next-gen Web3 Identity,” and a competitive programming competition open to Moroccan university students for great prizes. Additionally, technology enthusiasts can compete in the DEVJAM, showcasing innovative VR and AR ideas.",
     tags: ["Conference", "AR&VR", "Web3", "DEVJAM", "CP"],
+    link : "",
   },
   {
     title: "ITHOLIC V.1.0",
@@ -156,6 +159,7 @@ export const EVENTS = [
     description:
       "ITHOLIC is a meeting point for technology and IT enthusiasts. The event featured a conference on “Cloud & Linux” with top cloud engineers, a practical workshop on “Kubernetes,” and concluded with a competitive programming competition open to Moroccan university students.",
     tags: ["Conference","Cloud", "Linux", "Kubernetes", "CP"],
+    link : "",
   },
   {
     title: "FUTURE OF A GRADUATE SOFTWARE ENGINEER",
@@ -163,5 +167,6 @@ export const EVENTS = [
     description:
     "As a computer engineering student, you may be uncertain about your future career. Your expectations might not align with reality. We're here to clarify your vision! Join us for a conference moderated by El ASSALI Mehdi, where industry professionals will discuss what it means to be a software engineer.",
     tags: ["Conference","Software Engineer",],
+    link : "",
   },
 ];
