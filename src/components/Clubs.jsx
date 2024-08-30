@@ -34,7 +34,7 @@ const descriptions = {
     media: "Media encompasses content creation and management."
 };
 
-const Technologies = () => {
+const Clubs = () => {
     const [selectedCell, setSelectedCell] = useState(null);
 
     const handleCloseCard = () => {
@@ -101,4 +101,4 @@ const Technologies = () => {
     );
 };
 
-export default Technologies;
+export default Clubs;

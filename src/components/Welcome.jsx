@@ -39,7 +39,7 @@ const container2=(delay)=>({
         transition:{duration:0.5,delay: delay},
     },
 })
-const Hero = () => {
+const Welcome = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
@@ -107,4 +107,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Welcome

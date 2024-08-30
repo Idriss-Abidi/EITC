@@ -1,7 +1,7 @@
 import { EXPERIENCES } from "../constants"
 import { motion } from "framer-motion"
 
-const Experience = () => {
+const Formation = () => {
   return (
     <div id="FORMATIONS" className="border-b border-neutral-900 pb-4">
         <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1}} className="my-20 text-center text-4xl">FORMATIONS</motion.h2>
@@ -25,4 +25,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Formation
