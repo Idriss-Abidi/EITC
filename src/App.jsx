@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar"
 import Welcome from "./components/Welcome"
 import About from "./components/About"
 import Clubs from "./components/Clubs"
-import Formation from "./components/Formation"
+import Formation from "./components/Formations"
 import Event from "./components/Event"
 import Contact from "./components/Contact"
 const App = () => {
