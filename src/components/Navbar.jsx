@@ -73,7 +73,7 @@ const navbar = () => {
            {isMobileMenuOpen && (
             <ul className="ml-4 mt-4 text-center flex-col gap-4 backdrop-blur-md">
             {NAVIGATION_LINKS.map((item,index)=>(
-                <li key={index}>
+                <li key={index} className="py-1">
                     <a href={item.href} className={`w-full ${index === NAVIGATION_LINKS.length - 1 ? 'bg-gradient-to-r from-yellow-700 via-gray-400 to-yellow-300 bg-clip-text text-transparent' : 'text-gl'}`} onClick={(e)=>handleLinkClick(e,item.href)}>{item.label}</a>
                 </li>
             ))}
