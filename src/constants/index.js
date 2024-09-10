@@ -134,7 +134,7 @@ export const EVENTS = [
     image: itholic3,
     description:
       "ITHOLIC this year spans three days and focuses on “The Future of ITOPS,” showcasing innovations in microservices architectures. This theme reflects the shift from monolithic to agile, adaptable microservices, which enhance market responsiveness and system security. The event will cover the benefits and challenges of microservices, current ITOPS trends, and best practices, featuring a DEVJAM and a competitive programming competition.",
-    tags: ["Conference","ITOps", "DevOps", "DEVJAM", "CP"],
+    tags: ["ITOps", "DevOps", "DEVJAM", "CP"],
     link : "https://www.linkedin.com/posts/ensias-it-club_itholicabrv3-6thabrgeneration-whereabritabrmindsabrgetabrcreative-activity-7206724717267800065-wPYS?utm_source=share&utm_medium=member_desktop",
   },
   {
@@ -150,7 +150,7 @@ export const EVENTS = [
     image: itholic2,
     description:
       "ITHOLIC is the annual flagship event of ENSIAS IT CLUB, held on February 10-11 at ENSIAS. The event includes a conference on “AR & VR” with industry experts, a workshop on “Next-gen Web3 Identity,” and a competitive programming competition open to Moroccan university students for great prizes. Additionally, technology enthusiasts can compete in the DEVJAM, showcasing innovative VR and AR ideas.",
-    tags: ["Conference", "AR&VR", "Web3", "DEVJAM", "CP"],
+    tags: ["AR&VR", "Web3", "DEVJAM", "CP"],
     link : "",
   },
   {
@@ -158,7 +158,7 @@ export const EVENTS = [
     image: itholic1,
     description:
       "ITHOLIC is a meeting point for technology and IT enthusiasts. The event featured a conference on “Cloud & Linux” with top cloud engineers, a practical workshop on “Kubernetes,” and concluded with a competitive programming competition open to Moroccan university students.",
-    tags: ["Conference","Cloud", "Linux", "Kubernetes", "CP"],
+    tags: ["Cloud", "Linux", "Kubernetes", "CP"],
     link : "",
   },
   {
