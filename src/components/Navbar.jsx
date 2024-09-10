@@ -61,7 +61,7 @@ const navbar = () => {
            <div className="flex items-center justify-between">
             <motion.div variants={logoMove(3)} initial="initial" animate="animate">
                 <a href="#">
-                    <img src={logo} alt="logo" width={45} className="m-2"/>
+                    <img src={logo} alt="logo" width={70} className="m-2"/>
                 </a>
             </motion.div>
             <div className="flex item-center">
