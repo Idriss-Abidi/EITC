@@ -142,7 +142,7 @@ export const EVENTS = [
     image: MiskoHevery,
     description:
       "Hello Angular fans! EITC has brought you a workshop led by the mastermind behind Angular/AngularJS and Qwik, Misko Hevery. Save the date for this special event!",
-    tags: ["Workshop","Misko Hevery", "Angular", "Training"],
+    tags: ["Workshop", "Angular", "Training"],
     link : "https://www.youtube.com/watch?v=_OeaB9FLzGA",
   },
   {
