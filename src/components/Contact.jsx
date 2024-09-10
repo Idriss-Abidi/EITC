@@ -16,7 +16,7 @@ const iconMove = (duration) => ({
 
 const ContactUs = () => {
   return (
-    <div className="m-8">
+    <div className="m-1">
       <div className="lg:grid lg:grid-cols-2 lg:gap-4" id="CONTACT">
       {/* Contact Form */}
       <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1.5}} className="flex flex-col items-center py-3">
