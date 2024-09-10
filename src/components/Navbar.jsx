@@ -57,7 +57,7 @@ const navbar = () => {
 
         </div>
         {/* Mobile Menu */}
-        <div className="mr-20 ml-20 rounded-md backdrop-blur-md md:hidden">
+        <div className="mx-5 rounded-md backdrop-blur-md md:hidden">
            <div className="flex items-center justify-between">
             <motion.div variants={logoMove(3)} initial="initial" animate="animate">
                 <a href="#">
