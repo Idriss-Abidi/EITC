@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import cp from "../assets/cells/cp.jpg";
-import gamedev from "../assets/cells/gamedev.jpg";
-import media from "../assets/cells/media.jpg";
-import training from "../assets/cells/training.jpg";
-import sponsoring from "../assets/cells/sponsoring.jpg";
+import cp from "../assets/cells/cp2.png";
+import gamedev from "../assets/cells/gaming.png";
+import media from "../assets/cells/media.png";
+import training from "../assets/cells/training.png";
+import sponsoring from "../assets/cells/sponsoring.png";
+import design from "../assets/cells/design.png";
+import event from "../assets/cells/event.png";
 
 const iconMove = (duration) => ({
     initial: { y: -10 },
@@ -27,13 +29,14 @@ const textAnimation = {
 };
 
 const descriptions = {
-    sponsoring: "Sponsoring helps support various initiatives and projects.",
+    sponsoring: "Sponsoring oversees budget management and secures sponsorships.",
     gamedev: "Game development involves creating interactive games.",
     training: "Training focuses on improving skills and knowledge.",
     cp: "Competitive programming hones problem-solving abilities.",
-    media: "Media encompasses content creation and management."
+    media: "Media encompasses content creation and management.",
+    design : "Design is responsible for all visual and graphic designs ",
+    event : "Manages club events and coordinates logistics to ensure successful execution."
 };
-
 const Clubs = () => {
     const [selectedCell, setSelectedCell] = useState(null);
 
@@ -51,8 +54,8 @@ const Clubs = () => {
                         variants={iconMove(2.5)}
                         initial="initial"
                         animate="animate"
-                        className="rounded-full border-4 border-neutral-800 flex items-center justify-center cursor-pointer"
-                        style={{ width: '100px', height: '100px' }}
+                        className="rounded-full w-[100px] h-[100px] lg:w-[200px] lg:h-[200px] border-4 border-neutral-800 flex items-center justify-center cursor-pointer"
+                        // style={{ width: '100px', height: '100px' }}
                         onClick={() => setSelectedCell(key)}
                     >
                         <img
