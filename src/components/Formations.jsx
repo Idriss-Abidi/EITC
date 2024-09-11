@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { EXPERIENCES } from "../constants";
+import { HiArrowCircleRight, HiArrowCircleLeft } from "react-icons/hi";
 
 const Experience = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -66,15 +67,15 @@ const Experience = () => {
         </div>
         <button
           onClick={handlePrev}
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+          className="absolute top-1/2 left-0 transform -translate-y-1/2 text-3xl text-gray-300 hover:text-purple-900 transition-colors duration-300"
         >
-          &lt;
+          <HiArrowCircleLeft />
         </button>
         <button
           onClick={handleNext}
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+          className="absolute top-1/2 right-0 transform -translate-y-1/2 text-3xl text-gray-300 hover:text-purple-900 transition-colors duration-300"
         >
-          &gt;
+          <HiArrowCircleRight />
         </button>
       </div>
     </div>
