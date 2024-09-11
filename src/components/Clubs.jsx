@@ -59,7 +59,7 @@ const Clubs = () => {
                         onClick={() => setSelectedCell(key)}
                     >
                         <img
-                            src={key === 'sponsoring' ? sponsoring : key === 'gamedev' ? gamedev : key === 'training' ? training : key === 'cp' ? cp : media}
+                            src={key === 'sponsoring' ? sponsoring : key === 'gamedev' ? gamedev : key === 'design' ? design : key === 'media' ? media : key === 'training' ? training : key === 'cp' ? cp : event}
                             alt={key}
                             className="w-full h-full rounded-full object-cover"
                         />
