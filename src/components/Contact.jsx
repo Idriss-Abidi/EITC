@@ -20,7 +20,7 @@ const ContactUs = () => {
       <div className="lg:grid lg:grid-cols-2 lg:gap-4" id="CONTACT">
       {/* Contact Form */}
       <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1.5}} className="flex flex-col items-center py-3">
-        <h2 className="text-3xl text-white mb-6">CONTACT US</h2>
+        <h2 className="text-3xl text-white mb-6 text-neon">CONTACT US</h2>
         <form className="w-full max-w-md text-black/80 bg-white/10 p-6 rounded-lg">
           <div className="mb-4">
             <label htmlFor="name" className="block text-white">Name</label>
@@ -42,7 +42,7 @@ const ContactUs = () => {
 
       {/* Sponsoring */}
       <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:1.5}} className="flex flex-col items-center py-3" id="SPONSORS">
-      <h2 className="text-3xl bg-gradient-to-r from-yellow-700 via-gray-400 to-yellow-400 bg-clip-text text-transparent mb-6">SPONSORING</h2>
+      <h2 className="text-3xl bg-gradient-to-r from-yellow-700 via-gray-400 to-yellow-400 bg-clip-text text-transparent mb-6 gold-neon">SPONSORING</h2>
         <form className="w-full  max-w-md text-black/80 bg-gradient-to-r from-yellow-700/60 via-gray-400/70 to-yellow-300/70 p-6 rounded-lg">
           <div className="mb-4">
             <label htmlFor="name" className="block text-white">Name</label>
@@ -64,7 +64,7 @@ const ContactUs = () => {
       </div>
       {/* Get in Touch Section */}
       <div className="flex flex-col items-center mt-8">
-        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-50}} transition={{duration:1.5}} className="text-3xl text-white mb-4">Get in Touch</motion.h2>
+        <motion.h2 whileInView={{opacity:1, y:0}} initial={{opacity:0, y:-50}} transition={{duration:1.5}} className="text-3xl text-white mb-4 text-neon">Get in Touch</motion.h2>
         <div className="flex items-center justify-center gap-4 text-2xl text-white">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
