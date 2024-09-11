@@ -43,7 +43,7 @@ const navbar = () => {
         <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-md border border-stone-50/30 bg-black/20 py-3 backdrop-blur-md md:flex">
         <motion.div variants={logoMove(3)} initial="initial" animate="animate" className="flex items-center justify-between gap-6 pr-8">
             <div><a href="#">
-                <img src={logo} width={55} alt="logo"/>
+                <img src={logo} width={70} alt="logo"/>
             </a>
             </div>
         </motion.div>
