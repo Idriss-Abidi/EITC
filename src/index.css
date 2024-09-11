@@ -89,7 +89,6 @@ margin-top: 100px;
   height: 50px;
 }
 
-
 #eitc {position: relative;
   
   Letter-spacing:15px;
@@ -103,6 +102,15 @@ margin-top: 100px;
   animation: animate 5s linear infinite;
   }
   
+  #eitclogo {position: relative;
+  
+    text-align: center;
+    -webkit-box-reflect : below 1px linear-gradient(transparent, #0008);
+    outline: none;
+    animation: animate 5s linear infinite;
+    }
+
+
   @keyframes animate
   {
   0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
@@ -119,4 +127,27 @@ margin-top: 100px;
   0 0 80px #03bcf4,
   0 0 160px #03bcf4;}
   }
+
+  .neon-image {
+    animation: neon-glow 3s ease-in-out infinite;
+  }
+  
+  @keyframes neon-glow {
+    0%, 100% {
+      filter: drop-shadow(10px 0px 1px rgba(0, 255, 255, 0.7))
+              drop-shadow(10px 0 5px rgba(0, 255, 255, 0.7))
+              drop-shadow(10px 0 6px rgba(0, 255, 255, 0.7))
+              brightness(0.7);
+              
+    }
+    
+    50% {
+      filter: drop-shadow(10px 0 1px rgba(0, 255, 255, 1))
+              drop-shadow(0 0 5px rgba(0, 255, 255, 1))
+              drop-shadow(0 0 6px rgba(0, 255, 255, 1))
+              brightness(1.5);
+    }
+  }
+  
+  
   
