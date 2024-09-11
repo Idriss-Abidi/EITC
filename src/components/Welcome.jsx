@@ -49,14 +49,14 @@ const Welcome = () => {
                     <motion.span variants={container1(0.5)} initial="hidden" animate="visible" className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">ENSIAS IT CLUB</motion.span>
                     <motion.div variants={container1(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
                         {/* <WelcomeSection/> */}
-                        <motion.h1
+                        {/* <motion.h1
         variants={textVariants}
         initial="initial"
         animate="animate"
         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-4"
       >
         Hello there!
-      </motion.h1>
+      </motion.h1> */}
       
       {/* <div className="flex items-center"> */}
         {/* <motion.h2
