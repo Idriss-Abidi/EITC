@@ -46,7 +46,7 @@ const Welcome = () => {
             <div className="w-full lg:w-1/2"> 
                 <div className="flex flex-col items-center lg:items-start">
                     <motion.h1 variants={container1(0)} initial="hidden" id="eitc" animate="visible" className="my-20 text-7xl lg:text-8xl">EITC</motion.h1>
-                    <motion.span variants={container1(0.5)} initial="hidden" id="eitc" animate="visible" className="my-1 text-2xl lg:text-2xl">ENSIAS IT CLUB</motion.span>
+                    <motion.span variants={container1(0.5)} initial="hidden" id="eitcn" animate="visible" className="my-1 text-2xl lg:text-2xl">ENSIAS IT CLUB</motion.span>
                     <motion.div variants={container1(1)} initial="hidden" animate="visible" className="my-2 max-w-xl py-6 font-light tracking-tighter">
                         {/* <WelcomeSection/> */}
                         {/* <motion.h1
@@ -81,7 +81,7 @@ const Welcome = () => {
           variants={textVariants}
           initial="initial"
           animate="animate"
-          className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-4"
+          className="mt-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-4"
         >
           Where IT minds get creative
         </motion.h3>
