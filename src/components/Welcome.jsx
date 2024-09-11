@@ -58,8 +58,8 @@ const Welcome = () => {
         Hello there!
       </motion.h1>
       
-      <div className="flex items-center">
-        <motion.h2
+      {/* <div className="flex items-center"> */}
+        {/* <motion.h2
           variants={textVariants}
           initial="initial"
           animate="animate"
@@ -74,7 +74,7 @@ const Welcome = () => {
         >
           <FaHandSparkles />
         </motion.div>
-      </div>
+      </div> */}
 
       <div className="flex items-center">
         <motion.h3
