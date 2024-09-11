@@ -176,3 +176,27 @@ margin-top: 100px;
     text-shadow: 0 0 10px rgba(255, 242, 0, 0.533);
   }
   
+ .text-extra-neon {
+    position: relative;
+  
+    /* Letter-spacing:3px; */
+    color: #e5e7eb;
+    text-transform: uppercase;
+    /* width:100%; */
+    text-align: center;
+    -webkit-box-reflect : below 0.5px linear-gradient(transparent, #0008);
+    line-height: 0.50em;
+    outline: none;
+  text-shadow: 0 0 10px #03bcf4,
+  0 0 20px #03bcf4,
+  0 0 40px #03bcf4,
+  0 0 80px #03bcf4,
+  0 0 160px #03bcf4;
+  }
+  .us-neon{
+    text-shadow: 0 0 10px #5c578f;
+  }
+  .gold-neon{
+    text-shadow: 0 0 10px rgba(255, 242, 0, 0.533);
+  }
+  
