@@ -105,14 +105,18 @@ margin-top: 100px;
   #eitcn {position: relative;
   
     Letter-spacing:5px;
-    color: #0e3742;
+    color: #e5e7eb;
     text-transform: uppercase;
     width:100%;
     text-align: center;
     -webkit-box-reflect : below 1px linear-gradient(transparent, #0008);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
+  text-shadow: 0 0 10px #03bcf4,
+  0 0 20px #03bcf4,
+  0 0 40px #03bcf4,
+  0 0 80px #03bcf4,
+  0 0 160px #03bcf4;
     }
     
   #eitclogo {position: relative;
