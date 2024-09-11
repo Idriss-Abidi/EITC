@@ -98,7 +98,7 @@ const Welcome = () => {
             </div>
             <div className="w-3/4 mx-auto lg:w-1/2 lg:p-8"> 
                 <div className="flex justify-center ">
-                    <motion.img variants={container2(1.2)} initial="hidden" animate="visible" src={eitcLogo} alt=""/>
+                    <motion.img variants={container2(1.2)} className="neon-image" initial="hidden" animate="visible" src={eitcLogo} alt=""/>
                 </div>
             </div>
         </div>
