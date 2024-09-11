@@ -17,9 +17,18 @@ const waveVariants = {
 
 const starVariants = {
   animate: {
-    y: [0, -10, 0],
-    transition: { duration: 3, repeat: Infinity, repeatType: 'loop' }
-  }
+    scale: [1, 1.2, 1], // Animates scaling
+    filter: [
+      "drop-shadow(0 0 2px rgba(0, 255, 255, 0.5))",
+      "drop-shadow(0 0 3px rgba(0, 255, 255, 1))",
+      "drop-shadow(0 0 2px rgba(0, 255, 255, 0.5))",
+    ], // Neon glow effect animation
+    transition: {
+      duration: 3, // Duration of the entire animation
+      repeat: Infinity, // Infinite loop
+      ease: "easeInOut",
+    },
+  },
 };
 
 
@@ -89,7 +98,7 @@ const Welcome = () => {
         <motion.div
           variants={starVariants}
           animate="animate"
-          className="text-3xl ml-4 text-purple-600"
+          className=" ml-4 text-3xl"
         >
           <FaStar />
         </motion.div>
