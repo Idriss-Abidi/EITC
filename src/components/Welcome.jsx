@@ -93,14 +93,14 @@ const Welcome = () => {
           //className="mt-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-4"
         //className="center text-extra-neon text-1xl lg:text-2xl"
           id="eitcn"
-          className="center text-[0.5rem] md:text-[1rem] "
+          className="center font-bold text-[0.55rem] md:text-[1rem] md:font-normal "
         >
           Where IT minds get creative
         </motion.h3>
         <motion.div
           variants={starVariants}
           animate="animate"
-          className=" ml-4 text-3xl"
+          className=" ml-4  text-1xl md:text-2xl"
         >
           <FaStar />
         </motion.div>
