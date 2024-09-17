@@ -1,4 +1,4 @@
-import aboutGif from "../assets/gifs/aboutus.gif"
+import aboutGif from "../assets/gifs/about.gif"
 import  {HERO_CONTENT}  from "../constants"
 import { motion } from "framer-motion"
 
