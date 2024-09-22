@@ -29,13 +29,13 @@ const textAnimation = {
 };
 
 const descriptions = {
-    sponsoring: "Sponsoring oversees budget management and secures sponsorships.",
-    gamedev: "Game development involves creating interactive games.",
-    training: "Training focuses on improving skills and knowledge.",
-    cp: "Competitive programming hones problem-solving abilities.",
-    media: "Media encompasses content creation and management.",
-    design : "Design is responsible for all visual and graphic designs ",
-    event : "Manages club events and coordinates logistics to ensure successful execution."
+    sponsoring: "Reaches out to sponsors and partners for financial support.",
+    gamedev: "Advances members' skills in game development through workshops and projects.",
+    training: "Organizes workshops and training sessions across various IT-related fields.",
+    cp: "Develops skills in competitive programming and prepares for competitions.",
+    media: "Promotes events through social media and manages press relations.",
+    design : "Nurtures creative spirit and creates visual materials for club events.",
+    events : "Manages events, guest relations, and logistics for all activities."
 };
 const Clubs = () => {
     const [selectedCell, setSelectedCell] = useState(null);
