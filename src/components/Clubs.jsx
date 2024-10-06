@@ -7,7 +7,7 @@ import ds from "../assets/cells/design.png";
 import sp from "../assets/cells/sponsoring.png";
 import md from "../assets/cells/media.png";
 import ev from "../assets/cells/event.png";
-import re from "../assets/cells/relations.png";
+// import re from "../assets/cells/relations.png";
 
 import cp1 from "../assets/pilotage/cp1.png";
 import cp2 from "../assets/pilotage/cp2.png";
