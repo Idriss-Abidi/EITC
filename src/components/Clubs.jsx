@@ -75,7 +75,7 @@ const Clubs = () => {
                             className="w-[22rem] h-[22rem] shadow-lg shadow-blue-400/90"
                             whileHover={{ scale: 1.1 }}
                         />
-                        <div className="mt-8 bg-darkblue-opacity border border-blue-500 p-2 rounded-lg">
+                        <div className="mt-8 bg-darkblue-opacity border border-blue-500 shadow-lg shadow-blue-400/90">
                             <p className="text-center text-1xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
                                 Develops skills in competitive programming
                                 and prepares for competitions.
