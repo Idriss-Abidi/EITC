@@ -72,7 +72,7 @@ const Clubs = () => {
                             className="w-[12rem] h-[12rem] rounded-full shadow-lg shadow-blue-400/90"
                             whileHover={{ scale: 1.1 }}
                         />
-                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-2 rounded-lg">
+                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-2 shadow-lg shadow-blue-400/90">
                             <p className="text-center text-2xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
                                 Develops skills in competitive programming
                                 and prepares for competitions.
@@ -127,7 +127,7 @@ const Clubs = () => {
                             className="w-[12rem] h-[12rem] rounded-full shadow-lg shadow-blue-400/90"
                             whileHover={{ scale: 1.1 }}
                         />
-                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-2 rounded-lg">
+                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-2 shadow-lg shadow-blue-400/90">
                             <p className="text-center text-2xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
                             Organizes workshops and training sessions across various IT-related fields.
                             </p>
