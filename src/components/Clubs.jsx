@@ -64,7 +64,7 @@ const Clubs = () => {
                             <motion.img
                                 src={cp1}
                                 alt="cp1"
-                                className="w-[250px] shadow-lg shadow-yellow-300/90"
+                                className="w-[200px] shadow-lg shadow-blue-400/90"
                                 whileHover={{ scale: 1.1 }}
                             />
                             {/* Center image with purple neon */}
@@ -87,7 +87,7 @@ const Clubs = () => {
                             <motion.img
                                 src={cp2}
                                 alt="cp2"
-                                className="w-[250px] shadow-lg shadow-yellow-300/90"
+                                className="w-[200px] shadow-lg shadow-blue-400/90"
                                 whileHover={{ scale: 1.1 }}
                             />
                         </div>
