@@ -489,7 +489,7 @@ const Clubs = () => {
                         />
                         <div className="mt-8 bg-darkblue-opacity border border-blue-500 shadow-lg shadow-blue-400/90">
                             <p className="text-center text-1xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
-                            Builds partnerships, organizes collaborations, and secures sponsorships for the club.
+                            Builds partnership, organizes collaborations with external organisations.
                             </p>
                         </div>
                         </div>
