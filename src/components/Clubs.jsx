@@ -1,12 +1,19 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import cp from "../assets/cells/cp2.png";
-import gamedev from "../assets/cells/gaming.png";
-import media from "../assets/cells/media.png";
-import training from "../assets/cells/training.png";
-import sponsoring from "../assets/cells/sponsoring.png";
-import design from "../assets/cells/design.png";
-import event from "../assets/cells/event.png";
+import tr from "../assets/cells/training.png";
+import gd from "../assets/cells/gaming.png";
+import ds from "../assets/cells/design.png";
+import sp from "../assets/cells/sponsoring.png";
+import md from "../assets/cells/media.png";
+import ev from "../assets/cells/event.png";
+import re from "../assets/cells/relations.png";
+
+import cp1 from "../assets/pilotage/cp1.png";
+import cp2 from "../assets/pilotage/cp2.png";
+
+import tr1 from "../assets/pilotage/tr1.png";
+import tr2 from "../assets/pilotage/tr2.png";
 
 const iconMove = (duration) => ({
     initial: { y: -10 },
@@ -17,89 +24,135 @@ const iconMove = (duration) => ({
             ease: "linear",
             repeat: Infinity,
             repeatType: "reverse",
-        }
-    }
+        },
+    },
 });
 
-const textAnimation = {
-    initial: { opacity: 0, y: 20 },
-    animate: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: 20 },
-    transition: { duration: 1 }
-};
-
-const descriptions = {
-    sponsoring: "Reaches out to sponsors and partners for financial support.",
-    gamedev: "Advances members' skills in game development through workshops and projects.",
-    training: "Organizes workshops and training sessions across various IT-related fields.",
-    cp: "Develops skills in competitive programming and prepares for competitions.",
-    media: "Promotes events through social media and manages press relations.",
-    design : "Nurtures creative spirit and creates visual materials for club events.",
-    events : "Manages events, guest relations, and logistics for all activities."
-};
 const Clubs = () => {
     const [selectedCell, setSelectedCell] = useState(null);
 
-    const handleCloseCard = () => {
-        setSelectedCell(null);
-    };
-
     return (
         <div id="CELLS" className="border-b border-neutral-800 pb-24">
-            <motion.h2 whileInView={{ opacity: 1, y: 0 }} initial={{ y: -100, opacity: 0 }} transition={{ duration: 1.5 }} className="my-20 text-center text-4xl text-neon">CELLS</motion.h2>
-            <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.5 }} className="flex flex-wrap items-center justify-center gap-4">
-                {Object.keys(descriptions).map((key) => (
-                    <motion.div
-                        key={key}
-                        variants={iconMove(2.5)}
-                        initial="initial"
-                        animate="animate"
-                        className="rounded-full w-[100px] h-[100px] lg:w-[200px] lg:h-[200px] border-4 border-neutral-800 flex items-center justify-center cursor-pointer"
-                        // style={{ width: '100px', height: '100px' }}
-                        onClick={() => setSelectedCell(key)}
-                    >
-                        <img
-                            src={key === 'sponsoring' ? sponsoring : key === 'gamedev' ? gamedev : key === 'design' ? design : key === 'media' ? media : key === 'training' ? training : key === 'cp' ? cp : event}
-                            alt={key}
-                            className="w-full h-full rounded-full object-cover"
-                        />
-                    </motion.div>
-                ))}
-            </motion.div>
-            {selectedCell && (
+            <motion.h2
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ y: -100, opacity: 0 }}
+                transition={{ duration: 1.5 }}
+                className="my-20 text-center text-4xl text-white text-neon"
+            >
+                CELLS
+            </motion.h2>
+
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+                {/* CP CELL */}
                 <motion.div
-                    className="relative mt-8 mx-auto p-6 bg-gray-800 text-white rounded-lg w-3/4"
-                    whileInView={{ opacity: 1, y: 0 }}
-                    initial={{ opacity: 0, y: 100 }}
-                    transition={{ duration: 1.5 }}
+                    className="relative p-4 text-white rounded-lg flex flex-col items-center"
                 >
-                    <button
-                        onClick={handleCloseCard}
-                        className="absolute top-2 right-2 text-xl text-gray-300 hover:text-gray-100 mx-2"
-                    >
-                        ×
-                    </button>
-                    <motion.h3
-                        key={selectedCell}  // This will trigger re-animation
-                        className="text-xl font-bold mb-2"
-                        variants={textAnimation}
-                        initial="initial"
-                        animate="animate"
-                        exit="exit"
-                    >
-                        {selectedCell.charAt(0).toUpperCase() + selectedCell.slice(1)}
-                    </motion.h3>
-                    <motion.p
-                        key={selectedCell + "-desc"}  // Unique key to trigger re-animation
-                        variants={textAnimation}
-                        initial="initial"
-                        animate="animate"
-                        exit="exit"
-                    >
-                        {descriptions[selectedCell]}
-                    </motion.p>
+                    {/* Top Div with Images */}
+                    <div className="flex flex-col items-center">
+                        <div className="m-2">
+                            <h3 className="text-center text-4xl font-bold text-white p-10 text-neon"
+                            style={{ fontFamily: '"Share Tech", sans-serif' }}>
+                                Competitive Programming Cell
+                            </h3>
+                        </div>
+                        {/* Top images */}
+                        <div className="flex space-x-[50px] items-center">
+                            {/* Image with gold neon */}
+                            <motion.img
+                                src={cp1}
+                                alt="cp1"
+                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                whileHover={{ scale: 1.1 }}
+                            />
+                            {/* Center image with purple neon */}
+                            <div className="flex flex-col items-center">
+                            <motion.img
+                            src={cp}
+                            alt="CP Cell"
+                            className="w-[14rem] h-[14rem] rounded-full shadow-lg shadow-blue-400/90"
+                            whileHover={{ scale: 1.1 }}
+                        />
+                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-4 rounded-lg">
+                            <p className="text-center text-3xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
+                                Develops skills in competitive programming<br/>
+                                and prepares for competitions.
+                            </p>
+                        </div>
+                        </div>
+
+                            {/* Image with gold neon */}
+                            <motion.img
+                                src={cp2}
+                                alt="cp2"
+                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                whileHover={{ scale: 1.1 }}
+                            />
+                        </div>
+                    </div>
+                    {/* Bottom Div with Text */}
+                    
                 </motion.div>
-            )}
+            </div>
+
+
+
+            
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+                {/* CP CELL */}
+                <motion.div
+                    className="relative p-4 text-white rounded-lg flex flex-col items-center"
+                >
+                    {/* Top Div with Images */}
+                    <div className="flex flex-col items-center">
+                        <div className="m-2">
+                            <h3 className="text-center text-4xl font-bold text-white p-10 text-neon"
+                            style={{ fontFamily: '"Share Tech", sans-serif' }}>
+                                Training Cell
+                            </h3>
+                        </div>
+                        {/* Top images */}
+                        <div className="flex space-x-[50px] items-center">
+                            {/* Image with gold neon */}
+                            <motion.img
+                                src={tr1}
+                                alt="cp1"
+                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                whileHover={{ scale: 1.1 }}
+                            />
+                            {/* Center image with purple neon */}
+                            <div className="flex flex-col items-center">
+                            <motion.img
+                            src={tr}
+                            alt="CP Cell"
+                            className="w-[14rem] h-[14rem] rounded-full shadow-lg shadow-blue-400/90"
+                            whileHover={{ scale: 1.1 }}
+                        />
+                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-4 rounded-lg">
+                            <p className="text-center text-3xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
+                            Organizes workshops and training sessions <br/>across various IT-related fields.
+                            </p>
+                        </div>
+                        </div>
+
+                            {/* Image with gold neon */}
+                            <motion.img
+                                src={tr2}
+                                alt="cp2"
+                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                whileHover={{ scale: 1.1 }}
+                            />
+                        </div>
+                    </div>
+                    {/* Bottom Div with Text */}
+                    
+                </motion.div>
+            </div>
+
+
+
+
+            
+            
         </div>
     );
 };
