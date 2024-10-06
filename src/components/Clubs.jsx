@@ -61,7 +61,7 @@ const Clubs = () => {
                             <motion.img
                                 src={cp1}
                                 alt="cp1"
-                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                className="w-[250px] shadow-lg shadow-yellow-300/90"
                                 whileHover={{ scale: 1.1 }}
                             />
                             {/* Center image with purple neon */}
@@ -69,12 +69,12 @@ const Clubs = () => {
                             <motion.img
                             src={cp}
                             alt="CP Cell"
-                            className="w-[14rem] h-[14rem] rounded-full shadow-lg shadow-blue-400/90"
+                            className="w-[12rem] h-[12rem] rounded-full shadow-lg shadow-blue-400/90"
                             whileHover={{ scale: 1.1 }}
                         />
-                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-4 rounded-lg">
-                            <p className="text-center text-3xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
-                                Develops skills in competitive programming<br/>
+                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-2 rounded-lg">
+                            <p className="text-center text-2xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
+                                Develops skills in competitive programming
                                 and prepares for competitions.
                             </p>
                         </div>
@@ -84,7 +84,7 @@ const Clubs = () => {
                             <motion.img
                                 src={cp2}
                                 alt="cp2"
-                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                className="w-[250px] shadow-lg shadow-yellow-300/90"
                                 whileHover={{ scale: 1.1 }}
                             />
                         </div>
@@ -116,7 +116,7 @@ const Clubs = () => {
                             <motion.img
                                 src={tr1}
                                 alt="cp1"
-                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                className="w-[250px] shadow-lg shadow-yellow-300/90"
                                 whileHover={{ scale: 1.1 }}
                             />
                             {/* Center image with purple neon */}
@@ -124,12 +124,12 @@ const Clubs = () => {
                             <motion.img
                             src={tr}
                             alt="CP Cell"
-                            className="w-[14rem] h-[14rem] rounded-full shadow-lg shadow-blue-400/90"
+                            className="w-[12rem] h-[12rem] rounded-full shadow-lg shadow-blue-400/90"
                             whileHover={{ scale: 1.1 }}
                         />
-                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-4 rounded-lg">
-                            <p className="text-center text-3xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
-                            Organizes workshops and training sessions <br/>across various IT-related fields.
+                        <div className="mt-12 bg-darkblue-opacity border border-blue-500 p-2 rounded-lg">
+                            <p className="text-center text-2xl font-bold text-white p-4" style={{ fontFamily: '"Share Tech", sans-serif' }}>
+                            Organizes workshops and training sessions across various IT-related fields.
                             </p>
                         </div>
                         </div>
@@ -138,7 +138,7 @@ const Clubs = () => {
                             <motion.img
                                 src={tr2}
                                 alt="cp2"
-                                className="w-[290px] shadow-lg shadow-yellow-300/90"
+                                className="w-[250px] shadow-lg shadow-yellow-300/90"
                                 whileHover={{ scale: 1.1 }}
                             />
                         </div>
