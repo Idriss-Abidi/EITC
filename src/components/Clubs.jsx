@@ -61,12 +61,12 @@ const Clubs = () => {
                         {/* Top images */}
                         <div className="flex space-x-[50px] items-center">
                             {/* Image with gold neon */}
-                            <motion.img
+                            {/* <motion.img
                                 src={cp1}
                                 alt="cp1"
                                 className="w-[200px] shadow-lg shadow-blue-400/90"
                                 whileHover={{ scale: 1.1 }}
-                            />
+                            /> */}
                             {/* Center image with purple neon */}
                             <div className="flex flex-col items-center">
                             <motion.img
@@ -84,12 +84,12 @@ const Clubs = () => {
                         </div>
 
                             {/* Image with gold neon */}
-                            <motion.img
+                            {/* <motion.img
                                 src={cp2}
                                 alt="cp2"
                                 className="w-[200px] shadow-lg shadow-blue-400/90"
                                 whileHover={{ scale: 1.1 }}
-                            />
+                            /> */}
                         </div>
                     </div>
                     {/* Bottom Div with Text */}
@@ -121,12 +121,12 @@ const Clubs = () => {
                         <div className="flex space-x-[50px] items-center">
 
                             {/* Image with gold neon */}
-                            <motion.img
+                            {/* <motion.img
                                 src={tr1}
                                 alt="cp1"
                                 className="w-[200px] shadow-lg shadow-blue-400/90"
                                 whileHover={{ scale: 1.1 }}
-                            />
+                            /> */}
                             {/* Center image with purple neon */}
                             <div className="flex flex-col items-center">
                             <motion.img
@@ -143,12 +143,12 @@ const Clubs = () => {
                         </div>
 
                             {/* Image with gold neon */}
-                            <motion.img
+                            {/* <motion.img
                                 src={tr2}
                                 alt="cp2"
                                 className="w-[200px] shadow-lg shadow-blue-400/90"
                                 whileHover={{ scale: 1.1 }}
-                            />
+                            /> */}
                         </div>
                     </div>
                     {/* Bottom Div with Text */}
