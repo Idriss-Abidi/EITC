@@ -121,6 +121,7 @@ export const NAVIGATION_LINKS = [
   { label: "ABOUT US", href: "#ABOUT" },
   { label: "CELLS", href: "#CELLS" },
   // { label: "FORMATIONS", href: "#FORMATIONS" },
+  { label: "ITHOLIC", href: "#ITHOLIC" },
   { label: "EVENTS", href: "#EVENTS" },
   { label: "CONTACT", href: "#CONTACT" },
   { label: "SPONSORS", href: "#SPONSORS" },
