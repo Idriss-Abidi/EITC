@@ -37,7 +37,7 @@ const Clubs = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ y: -100, opacity: 0 }}
                 transition={{ duration: 1.5 }}
-                className="my-20 text-center text-4xl text-white text-neon"
+                className="my-5 text-center text-4xl text-white text-neon"
             >
                 CELLS
             </motion.h2>
