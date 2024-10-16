@@ -25,7 +25,7 @@ const ItHolic = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.5 }}
-        className="text-center text-5xl font-bold text-white text-neon"
+        className="text-center text-5xl font-bold text-white text-neon my-5"
         style={{ fontFamily: '"Share Tech", sans-serif' }}
       >
         MAIN EVENT
