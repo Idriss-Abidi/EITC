@@ -93,7 +93,7 @@ const Welcome = () => {
           //className="mt-3 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent mb-4"
         //className="center text-extra-neon text-1xl lg:text-2xl"
           id="eitcn"
-          className="center font-bold text-[1rem] md:text-2xl md:font-bpld "
+          className="center font-bold text-[0.85rem] md:text-2xl md:font-bold"
         >
           Where IT minds get creative
         </motion.h3>
