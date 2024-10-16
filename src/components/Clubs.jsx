@@ -32,7 +32,7 @@ const Clubs = () => {
     const [selectedCell, setSelectedCell] = useState(null);
 
     return (
-        <div id="CELLS" className="border-b border-neutral-800 pb-24">
+        <div id="CELLS" className="border-b border-neutral-800 pb-4">
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ y: -100, opacity: 0 }}
