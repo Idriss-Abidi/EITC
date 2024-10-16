@@ -42,7 +42,7 @@ const Clubs = () => {
                 CELLS
             </motion.h2>
 
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[2rem]">
                 {/* CP CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
