@@ -43,9 +43,9 @@ const ItHolic = () => {
                     {/* Top Div with Images */}
                     <div className="flex flex-col items-center">
                         {/* Top images */}
-                        <div className="flex space-x-[40px] items-center mb-20">
+                        <div className="flex space-x-[10px] md:space-x-[40px] items-center mb-20">
                             {/* Image with gold neon */}
-                            <div className="flex flex-col items-center  space-y-2 md:space-y-4 mt-[-20px]">
+                            <div className="flex flex-col items-center space-y-4 mt-[-20px]">
   <motion.img
     src={itl1}
     alt="cp1"
@@ -80,7 +80,7 @@ const ItHolic = () => {
                         </div>
 
                             {/* Image with gold neon */}
-                            <div className="flex flex-col items-center  space-y-2 md:space-y-4">
+                            <div className="flex flex-col items-center space-y-4">
   <motion.img
     src={itl2}
     alt="cp1"
@@ -107,7 +107,7 @@ const ItHolic = () => {
 
                     <div className="flex flex-col items-center">
                         {/* Top images */}
-                        <div className="flex space-x-[50px] items-center">
+                        <div className="flex space-x-[10px] md:space-x-[50px] items-center">
                             {/* Image with gold neon */}
                             <div className="flex flex-col items-center space-y-4 mt-[-20px]">
  
