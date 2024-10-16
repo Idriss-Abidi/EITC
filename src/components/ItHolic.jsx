@@ -45,7 +45,7 @@ const ItHolic = () => {
                         {/* Top images */}
                         <div className="flex space-x-[10px] md:space-x-[40px] items-center mb-20">
                             {/* Image with gold neon */}
-                            <div className="flex flex-col items-center space-y-4 mt-[-20px]">
+                            <div className="flex flex-col items-center space-y-4">
   <motion.img
     src={itl1}
     alt="cp1"
