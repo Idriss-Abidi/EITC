@@ -42,7 +42,7 @@ const Clubs = () => {
                 CELLS
             </motion.h2>
 
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* CP CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -100,7 +100,7 @@ const Clubs = () => {
 
 
             
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* Training CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -158,7 +158,7 @@ const Clubs = () => {
 
 
 
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* GameDev CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -216,7 +216,7 @@ const Clubs = () => {
 
             
             
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* Event CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -274,7 +274,7 @@ const Clubs = () => {
 
 
             
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* Design CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -334,7 +334,7 @@ const Clubs = () => {
 
 
             
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* Media CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -392,7 +392,7 @@ const Clubs = () => {
 
 
             
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* Sponsoring CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
@@ -452,7 +452,7 @@ const Clubs = () => {
 
 
             
-            <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+            <div className="flex flex-wrap items-center justify-center gap-4 mb-[5rem]">
                 {/* External Relations CELL */}
                 <motion.div
                     className="relative p-4 text-white rounded-lg flex flex-col items-center"
