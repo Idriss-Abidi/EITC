@@ -100,54 +100,78 @@ const ItHolic = () => {
 
 
 
+<div>
+  {/* Small Screen Layout */}
+  <div className="flex flex-col items-center md:hidden">
+    <div className="flex space-x-[20px] items-center py-[20px]">
+      {/* First Image */}
+      <div className="flex flex-col items-center space-y-4">
+        <motion.img
+          src={it31}
+          alt="cp1"
+          className="w-[250px] shadow-lg shadow-purple-300/90"
+          whileHover={{ scale: 1.1 }}
+        />
+      </div>
 
-                    
-                    {/* Bottom Div with Text */}
-                    
-
-                    <div className="flex flex-col items-center">
-                        {/* Top images */}
-                        <div className="flex space-x-[10px] md:space-x-[50px] items-center">
-                            {/* Image with gold neon */}
-                            <div className="flex flex-col items-center space-y-4 ">
- 
-  <motion.img
-    src={it31}
-    alt="cp1"
-    className="w-[200px] shadow-lg shadow-purple-300/90"
-    whileHover={{ scale: 1.1 }}
-  />
-</div>
-
-                            {/* Center image with purple neon */}
-                            <div className="flex flex-col items-center">
-                            <div className="flex flex-col items-center space-y-4">
- 
-  <motion.img
-    src={it32}
-    alt="cp1"
-    className="w-[400px] shadow-lg shadow-purple-300/90"
-    whileHover={{ scale: 1.1 }}
-  />
-</div>
-                        </div>
-
-                            {/* Image with gold neon */}
-                            <div className="flex flex-col items-center space-y-4">
-  
-  <motion.img
-    src={it33}
-    alt="cp1"
-    className="w-[200px] shadow-lg shadow-purple-300/90"
-    whileHover={{ scale: 1.1 }}
-  />
-</div>
-                        </div>
-                    </div>
-                </motion.div>
-            </div>
+      {/* Third Image */}
+      <div className="flex flex-col items-center space-y-4">
+        <motion.img
+          src={it33}
+          alt="cp1"
+          className="w-[250px] shadow-lg shadow-purple-300/90"
+          whileHover={{ scale: 1.1 }}
+        />
+      </div>
     </div>
 
+    {/* Second Image Below */}
+    <div className="flex flex-col items-center space-y-4 mt-4">
+      <motion.img
+        src={it32}
+        alt="cp1"
+        className="w-[400px] shadow-lg shadow-purple-300/90"
+        whileHover={{ scale: 1.1 }}
+      />
+    </div>
+  </div>
+
+  {/* Normal Layout for Larger Screens */}
+  <div className="hidden md:flex flex-col items-center">
+    {/* Top images */}
+    <div className="flex space-x-[10px] md:space-x-[50px] items-center">
+      {/* First Image */}
+      <div className="flex flex-col items-center space-y-4">
+        <motion.img
+          src={it31}
+          alt="cp1"
+          className="w-[200px] shadow-lg shadow-purple-300/90"
+          whileHover={{ scale: 1.1 }}
+        />
+      </div>
+
+      {/* Center Image */}
+      <div className="flex flex-col items-center space-y-4">
+        <motion.img
+          src={it32}
+          alt="cp1"
+          className="w-[400px] shadow-lg shadow-purple-300/90"
+          whileHover={{ scale: 1.1 }}
+        />
+      </div>
+
+      {/* Third Image */}
+      <div className="flex flex-col items-center space-y-4">
+        <motion.img
+          src={it33}
+          alt="cp1"
+          className="w-[200px] shadow-lg shadow-purple-300/90"
+          whileHover={{ scale: 1.1 }}
+        />
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
