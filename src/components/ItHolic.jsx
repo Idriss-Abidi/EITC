@@ -39,7 +39,7 @@ const ItHolic = () => {
       </p>
 
       {/* Container for images */}
-      <div className="flex flex-wrap items-center justify-center gap-4 mb-[10rem]">
+      <div className="flex flex-wrap items-center justify-center gap-4 mb-[1rem]">
         <motion.div className="relative p-2 text-white rounded-lg flex flex-col items-center">
           {/* Top Div with Images */}
           <div className="flex flex-col items-center">
