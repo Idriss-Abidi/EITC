@@ -50,7 +50,7 @@ const navbar = () => {
         <div>
             <ul className="flex items-center gap-4">
                 {NAVIGATION_LINKS.map((item, index)=>(
-                    <li key={index}> <a className={`text-lg font-bold hover:text-cyan-400 ${index === NAVIGATION_LINKS.length - 1 ? 'bg-gradient-to-r from-yellow-700 via-gray-400 to-yellow-300 bg-clip-text text-transparent' : 'text-gl'} `} href={item.href} onClick={(e)=>handleLinkClick(e, item.href)} >{item.label}</a></li>
+                    <li key={index}> <a className={`text-lg font-extrabold hover:text-cyan-400 ${index === NAVIGATION_LINKS.length - 1 ? 'bg-gradient-to-r from-yellow-700 via-gray-400 to-yellow-300 bg-clip-text text-transparent' : 'text-gl'} `} href={item.href} onClick={(e)=>handleLinkClick(e, item.href)} >{item.label}</a></li>
                 ))}
             </ul>
         </div>
